@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preferred-activities>
+
+    <item name="com.google.android.apps.plus/.editor.PlusEditorActivity">
+        <filter>
+            <action name="android.intent.action.EDIT" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="image/bmp" />
+            <type name="image/jpeg" />
+            <type name="image/gif" />
+            <type name="image/png" />
+            <type name="image/webp" />
+            <type name="image/x-ms-bmp" />
+            <type name="image/vnd.wap.wbmp" />
+        </filter>
+    </item>
+    
+    <item name="com.google.android.apps.plus/.editor.PlusCropActivity">
+        <filter>
+            <action name="com.android.camera.action.CROP" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="image/bmp" />
+            <type name="image/jpeg" />
+            <type name="image/gif" />
+            <type name="image/png" />
+            <type name="image/webp" />
+            <type name="image/x-ms-bmp" />
+            <type name="image/vnd.wap.wbmp" />
+        </filter>
+    </item>
+
+    <!--we should use HwGallery2 as the preferred-apps
+    <item name="com.google.android.apps.photos/.home.HomeActivity">
+        <filter>
+            <action name="android.intent.action.MAIN" />
+            <cat name="android.intent.category.APP_GALLERY" />
+            <cat name="android.intent.category.DEFAULT" />
+        </filter>
+    </item>
+    -->
+
+</preferred-activities>
